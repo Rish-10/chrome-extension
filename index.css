@@ -20,9 +20,10 @@ button {
     border: 1px solid #5f9341; 
     padding: 10px 20px;
     font-weight: bold; 
+    margin-top: 10px;
 }
 
-#delete-btn {
+#delete-btn, #delete-selected-btn, #skip-btn {
     color: #5f9341; 
     background-color: white;
 }
@@ -41,4 +42,22 @@ li a {
     color: #5f9341;
 }
 
+li p a {
+    color: #afc9a0;
+}
 
+p {
+    margin: 0; 
+    padding: 0; 
+}
+ 
+.disappear {
+    display: none;
+}
+
+#disclaimer {
+    font-style: italic; 
+    font-size: 12px;
+    color: #afc9a0;
+    margin-bottom: 5px;
+}
