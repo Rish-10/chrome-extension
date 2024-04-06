@@ -1,16 +1,25 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
     </head>
     <body>
-        <input type="text" id="input-el">
+        <div id="input-bar">
+            <input type="text" id="input-el" placeholder="URL">
+            <input type="text" id="save-as-el" placeholder="Save as (Optional)">
+        </div>
         <button id="input-btn">SAVE INPUT</button>
-        <button id="tab-btn">SAVE TAB</button>
-        <button id="delete-btn">DELETE ALL</button>
-        <button class = "disappear" id="delete-selected-btn">DELETE</button>
-        <button class = "disappear" id="skip-btn">CHOOSE</button>
+        <button id="tab-btn">SAVE CURRENT TAB</button>
         <ul id="ul-el"></ul>
-        <p class = "disappear" id="disclaimer">*Double tap delete buttons to delete anything*</p>
+        <p class = "disappear" id="disclaimer"></p>
+        <div class = "disappear" id="delete-bar">
+            <button id="up-btn"><img id="up-arrow" src="arrow.png"></button>
+            <button id="down-btn"><img id="down-arrow" src="arrow.png"></button>
+            <button id="copy-btn">COPY</button>
+            <button id="delete-selected-btn">DELETE</button>
+            <button id="delete-btn">DELETE ALL</button>
+        </div>
+
         <script src="index.js"></script>
     </body>
 </html>
