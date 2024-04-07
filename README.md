@@ -14,4 +14,4 @@ Let me know if you have any feedback.
 
 Enjoy!
 
-P.S. To launch it, download the folder, open chrome and go to chrome://extensions/. Click "Load unpacked", and select the folder you just downloaded.
+P.S. To launch it, download the folder, open chrome and go to chrome://extensions/. Turn on Developer Mode, and click "Load unpacked", and select the folder you just downloaded.
